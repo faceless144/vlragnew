@@ -20,7 +20,7 @@ export const DEMO_BOTS: DemoBot[] = [
     context: [],
     modelConfig: {
       model: "gpt-4-turbo",
-      temperature: 0.1,
+      temperature: 0.3,
       maxTokens: 4096,
       sendMemory: false,
     },
