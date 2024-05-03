@@ -9,7 +9,7 @@ const TEMPLATE = (PERSONA: string) =>
 
 type DemoBot = Omit<Bot, "session">;
 
-/*
+
 
 export const DEMO_BOTS: DemoBot[] = [
   {
@@ -27,6 +27,7 @@ export const DEMO_BOTS: DemoBot[] = [
     readOnly: true,
     hideContext: false,
   },
+  /*
   {
     id: "3",
     avatar: "1f5a5-fe0f",
@@ -90,9 +91,9 @@ export const DEMO_BOTS: DemoBot[] = [
     datasource: "basic_law_germany",
     hideContext: false,
   },
+  */
 ];
 
-*/
 
 export const createDemoBots = (): Record<string, Bot> => {
   const map: Record<string, Bot> = {};
