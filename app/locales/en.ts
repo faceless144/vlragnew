@@ -137,10 +137,10 @@ const en = {
   },
 
   Welcome: {
-    Title: "Chat LlamaIndex",
-    SubTitle: "Create chat bots that know your data",
+    Title: "Doc Talk",
+    SubTitle: "Talk to your doc",
     Quote:
-      "“This tool has saved me countless hours of work and helped me apply AI features to my work faster than ever before.”",
+      "“Use this tool to query your documents”",
     LoginLinkedinTitle: "Login with LinkedIn",
   },
 };
