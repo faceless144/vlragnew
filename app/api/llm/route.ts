@@ -152,11 +152,11 @@ export async function POST(request: NextRequest) {
     }
 
     const allowAllModels = JSON.parse(process.env.ALLOW_ALL_MODELS || "true");
-    if (!allowAllModels && config.model !== "gpt-3.5-turbo") {
+    if (!allowAllModels && config.model !== "gpt-4-turbo") {
       return NextResponse.json(
         {
           error:
-            "Only configured to use GPT 3.5. Change model used by the bot or set 'ALLOW_ALL_MODELS' env variable to 'true'.",
+            "Only configured to use GPT 4 Change model used by the bot or set 'ALLOW_ALL_MODELS' env variable to 'true'.",
         },
         { status: 400 },
       );
