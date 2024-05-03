@@ -151,7 +151,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const allowAllModels = JSON.parse(process.env.ALLOW_ALL_MODELS || "false");
+    const allowAllModels = JSON.parse(process.env.ALLOW_ALL_MODELS || "true");
     if (!allowAllModels && config.model !== "gpt-3.5-turbo") {
       return NextResponse.json(
         {
