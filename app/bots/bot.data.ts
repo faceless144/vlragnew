@@ -9,6 +9,8 @@ const TEMPLATE = (PERSONA: string) =>
 
 type DemoBot = Omit<Bot, "session">;
 
+/*
+
 export const DEMO_BOTS: DemoBot[] = [
   {
     id: "2",
@@ -77,7 +79,7 @@ export const DEMO_BOTS: DemoBot[] = [
         role: "system",
         content: TEMPLATE("Lawyer specialized in the basic law of Germany"),
       },
-    ],
+    ], 
     modelConfig: {
       model: "gpt-3.5-turbo",
       temperature: 0.1,
@@ -89,6 +91,8 @@ export const DEMO_BOTS: DemoBot[] = [
     hideContext: false,
   },
 ];
+
+*/
 
 export const createDemoBots = (): Record<string, Bot> => {
   const map: Record<string, Bot> = {};
