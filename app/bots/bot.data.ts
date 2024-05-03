@@ -15,7 +15,7 @@ export const DEMO_BOTS: DemoBot[] = [
   {
     id: "2",
     avatar: "1f916",
-    name: "My Documents",
+    name: "Doc Talk",
     botHello: "Hello! How can I assist you today?",
     context: [],
     modelConfig: {
