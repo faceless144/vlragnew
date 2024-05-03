@@ -19,8 +19,8 @@ export const DEMO_BOTS: DemoBot[] = [
     botHello: "Hello! How can I assist you today?",
     context: [],
     modelConfig: {
-      model: "gpt-3.5-turbo",
-      temperature: 0.5,
+      model: "gpt-4-turbo",
+      temperature: 0.1,
       maxTokens: 4096,
       sendMemory: false,
     },
