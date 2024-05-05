@@ -21,7 +21,7 @@ export const DEMO_BOTS: DemoBot[] = [
     modelConfig: {
       model: "gpt-4-turbo",
       temperature: 0.3,
-      
+      maxTokens: 40960,
       sendMemory: false,
     },
     readOnly: true,
