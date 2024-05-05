@@ -29,11 +29,11 @@ export function SideBar(props: { className?: string }) {
             </div>
             <ThemeToggle />
           </div>
-      //    <BotList />
+          {/*    <BotList /> */}
         </div>
 
         <div className="flex items-center justify-between">
-        /*
+          {/*
           <Button
             variant="secondary"
             size="icon"
@@ -50,7 +50,7 @@ export function SideBar(props: { className?: string }) {
             size="sm"
             onClick={() => window.open(GITHUB_URL, "_blank")}
           >
-            */
+            */}
             <Github className="mr-2 h-4 w-4" />
             <span>{Locale.Home.Github}</span>
           </Button>
